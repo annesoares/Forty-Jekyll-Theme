@@ -9,17 +9,11 @@
 title: Women Techmakers Brasil
 title-bold: Women Techmakers
 title-normal: Brasil
-email: wtmbr@gmail.com
+email: annecrsoares@gmail.com
 description: O Women Techmakers é um programa da Google para incentivar as mulheres na área de tecnologia.
 baseurl: "/Forty-Jekyll-Theme" # the subpath of your site, e.g. /blog
 url: "http://annesoares.github.io" # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
 
 # Plugins
 gems:

@@ -2704,10 +2704,10 @@
 			cursor: default;
 			height: 40vh;
 			max-height: 40em;
-			min-height: 23em;
+			min-height: 13em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 30%;
 		}
 
 			.tiles article .image {
@@ -2781,8 +2781,8 @@
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+			.tiles article:nth-child(9n + 2), .tiles article:nth-child(9n + 6), .tiles article:nth-child(9n + 7) {
+				width: 40%;
 			}
 
 			.tiles article:nth-child(6n - 5):before {
