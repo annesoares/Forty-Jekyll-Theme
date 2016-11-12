@@ -3,17 +3,17 @@ layout: home
 title: Home
 landing-title: Women Techmakers Brasil
 cta-button: Saiba Mais
-description: 
-image: 
-author: 
-nav-menu: 
+description:
+image:
+author:
+nav-menu:
 ---
 
 <!-- Banner -->
-<section id="banner" class="major" style="background-image: url('http://gxgbrasil.github.io/wtmbr/images/header-img.JPG');">
+<section id="banner" class="major" style="background-image: url('assets/images/header.png');">
 	<div class="inner">
 		<header class="major">
-			<h1><img src="http://gxgbrasil.github.io/wtmbr/images/wtm-logo-horz-white.png"></h1>
+			<h1><img src="assets/images/logo.png" style="max-height: 2em;"></h1>
 		</header>
 		<div class="content">
 			<p style="text-transform: uppercase;">{{ site.description }}</p>
@@ -45,4 +45,3 @@ nav-menu:
 {% include tiles.html %}
 
 </div>
-
