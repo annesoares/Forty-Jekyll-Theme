@@ -4,7 +4,7 @@ title: Home
 landing-title: Women Techmakers Brasil
 cta-button: Saiba Mais
 description:
-image:
+image: assets/images/logo.png
 author:
 nav-menu:
 ---
@@ -37,6 +37,7 @@ nav-menu:
 		<p>O Women Techmakers é o programa e marca global do Google voltado para as mulheres na tecnologia. Atualmente, o programa foca em empoderar as mulheres na tecnologia através do aumento da visibilidade, comunidade e recursos destinados à elas.</p>
 		<ul class="actions">
 			<li><a href="https://github.com/gxgbrasil/womentechmakers" class="button next">Mais perguntas?</a></li>
+			<li><a href="#contact" class="button next scrolly">Ache o seu</a></li>
 		</ul>
 	</div>
 </section>

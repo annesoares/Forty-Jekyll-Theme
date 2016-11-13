@@ -2,6 +2,29 @@
 <section id="contact" style="background: linear-gradient( rgba(42, 47, 74, 0.8), rgba(42, 47, 74, 0.8) ), url('assets/images/contato.jpg') center / cover;">
 	<div class="inner">
 		<section>
+			<style>
+			#map {
+			  width: 100%;
+			  height: 100%;
+				padding: 0;
+			}
+			#legend {
+			  background-color: #2A2F4A;
+			  padding: 0.3em;
+			  margin: 0.3em;
+			  font-size: 1.5em;
+			}
+			.info_content, .info_content strong {
+				color: #2A2F4A;
+			}
+			</style>
+			<div id="map"></div>
+      <div id="legend">
+        Não encontrou um WTM na sua região?<br />
+        <a href="https://developers.google.com/groups/directory/" target="_blank">Fale com o GDG mais próximo!</a>
+      </div>
+		</section>
+		<section class="split">
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
 					<label for="name">Nome</label>
@@ -21,31 +44,6 @@
 				</ul>
 			</form>
 		</section>
-		<!--section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<span>{{ site.phone }}</span>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>{{ site.street_address }}<br />
-					{{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
-					{{ site.country }}</span>
-				</div>
-			</section>
-		</section-->
 	</div>
 </section>
 
