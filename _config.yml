@@ -12,7 +12,7 @@ title-normal: Brasil
 email: annecrsoares@gmail.com
 description: O Women Techmakers é um programa da Google para incentivar as mulheres na área de tecnologia.
 baseurl: "/Forty-Jekyll-Theme" # the subpath of your site, e.g. /blog
-url: "http://annesoares.github.io" # the base hostname & protocol for your site
+url: "https://annesoares.github.io" # the base hostname & protocol for your site
 author:
 
 # Plugins
@@ -23,8 +23,8 @@ gems:
   - jemoji
 
 # Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 9
 
 # Social settings
 500px_url:
